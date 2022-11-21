@@ -1,11 +1,11 @@
 import { useState, useEffect, useContext } from 'react';
 import styled from 'styled-components';
 
-import { AuthContext } from '../../contexts/AuthContext.js';
-import { RefreshContext } from '../../contexts/RefreshContext.js';
-import { getTransactions } from '../../services/axiosServices.js';
+import { AuthContext } from '../contexts/AuthContext.js';
+import { RefreshContext } from '../contexts/RefreshContext.js';
+import { getTransactions } from '../services/axiosServices.js';
 
-import Transaction from '../Transactions/Transaction.js';
+import Transaction from '../components/Transaction';
 
 export default function TransactionsList() {
     

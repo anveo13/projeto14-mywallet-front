@@ -4,9 +4,9 @@ import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
 import { ThreeDots } from 'react-loader-spinner';
 
-import { AuthContext } from '../../contexts/AuthContext.js';
-import { RefreshContext } from '../../contexts/RefreshContext.js';
-import { postTransaction } from '../../services/axiosServices.js';
+import { AuthContext } from '../contexts/AuthContext.js';
+import { RefreshContext } from '../contexts/RefreshContext.js';
+import { postTransaction } from '../services/axiosServices.js';
 
 export default function EntryForm() {
 

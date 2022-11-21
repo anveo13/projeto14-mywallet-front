@@ -2,12 +2,12 @@ import { useState, useEffect, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
-import { AuthContext } from '../../contexts/AuthContext.js';
-import { RefreshContext } from '../../contexts/RefreshContext.js';
-import { getUserName, getUserBalance } from '../../services/axiosServices.js';
+import { AuthContext } from '../contexts/AuthContext.js';
+import { RefreshContext } from '../contexts/RefreshContext.js';
+import { getUserName, getUserBalance } from '../services/axiosServices.js';
 
-import TransactionsList from '../Transactions/TransactionsList.js';
-import EntryButton from './EntryButton.js';
+import TransactionsList from '../components/TransactionsList';
+import EntryButton from '../components/EntryButton.js';
 
 export default function Wallet() {
 

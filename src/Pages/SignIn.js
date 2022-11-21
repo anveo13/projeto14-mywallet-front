@@ -2,10 +2,10 @@ import { useState, useContext } from 'react';
 import { ThreeDots } from 'react-loader-spinner';
 import { useNavigate } from 'react-router-dom';
 
-import { AuthContext } from '../../contexts/AuthContext.js';
-import { signIn } from '../../services/axiosServices.js';
+import { AuthContext } from '../contexts/AuthContext.js';
+import { signIn } from '../services/axiosServices.js';
 
-import UserForm from './UserFormStyle.js';
+import UserForm from '../components/UserFormStyle';
 
 export default function SignIn() {
 

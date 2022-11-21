@@ -1,9 +1,9 @@
 import { useContext } from 'react';
 import styled from 'styled-components';
 
-import { AuthContext } from '../../contexts/AuthContext.js';
-import { RefreshContext } from '../../contexts/RefreshContext.js';
-import { deleteTransaction } from '../../services/axiosServices.js';
+import { AuthContext } from '../contexts/AuthContext.js';
+import { RefreshContext } from '../contexts/RefreshContext.js';
+import { deleteTransaction } from '../services/axiosServices.js';
 
 export default function Transaction({id, title, value, type, date}) {
 

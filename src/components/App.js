@@ -5,10 +5,10 @@ import { AuthContext } from '../contexts/AuthContext.js';
 import { RefreshContext } from '../contexts/RefreshContext.js'
 import GlobalStyles from '../styles/globalStyles.js';
 
-import SignIn from '../components/User/SignIn.js'
-import SignUp from '../components/User/SignUp.js';
-import Wallet from '../components/Wallet/Wallet.js';
-import EntryForm from './Wallet/EntryForm.js';
+import SignIn from '../Pages/SignIn.js'
+import SignUp from '../Pages/SignUp.js';
+import Wallet from '../Pages/Wallet.js';
+import EntryForm from '../Pages/EntryForm.js';
 
 export default function App() {
 
